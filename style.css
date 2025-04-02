@@ -171,47 +171,15 @@ main {
   display: none;
 }
 
-@media (max-width: 1200px) {
-  header {
-    height: 30vh;
-  }
-
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
   main {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 95vh;
-    padding: 2rem;
-    margin: 1rem 1rem;
-  }
-
-  .left,
-  .right {
     width: 90%;
-    margin-bottom: 2rem;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  .number {
-    font-size: 5rem;
-    width: 12rem;
-  }
-
-  .guess {
-    width: 80%;
-    font-size: 4rem;
-  }
-
-  .btn {
-    padding: 1rem 1.5rem;
-    font-size: 1.3rem;
+    height: 55rem;
   }
 
   .player {
-    padding: 10rem;
+    padding: 6rem;
   }
 
   .name {
@@ -219,100 +187,140 @@ main {
   }
 
   .score {
-    font-size: 6rem;
+    font-size: 7rem;
+  }
+
+  .current {
+    width: 75%;
+    padding: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 0.6rem 2.2rem;
+  }
+
+  .btn--new {
+    top: 3rem;
+  }
+
+  .btn--roll {
+    top: 36rem;
+  }
+
+  .btn--hold {
+    top: 43rem;
+  }
+
+  .dice {
+    top: 14rem;
+    height: 9rem;
   }
 }
 
-@media (max-width: 768px) {
-  header {
-    height: 25vh;
-  }
-
+@media screen and (max-width: 600px) {
   main {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    padding: 1rem;
+    height: 50rem;
   }
 
-  .left,
-  .right {
-    width: 90%;
-    margin-bottom: 1.5rem;
+  .player {
+    padding: 4rem;
   }
 
-  h1 {
+  .name {
     font-size: 3rem;
   }
 
-  .number {
-    font-size: 4rem;
-    width: 10rem;
-  }
-
-  .guess {
-    width: 70%;
-    font-size: 3.5rem;
-  }
-
-  .btn {
-    padding: 1rem 1.5rem;
-    font-size: 1.3rem;
-  }
-
-  .player {
-    padding: 9rem;
-  }
-
-  .name {
-    font-size: 3.5rem;
-  }
-
   .score {
     font-size: 6rem;
   }
-}
 
-@media (max-width: 480px) {
-  header {
-    height: 20vh;
+  .current {
+    width: 85%;
+    padding: 1.2rem;
   }
 
+  .current-label {
+    font-size: 1.5rem;
+  }
+
+  .current-score {
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .btn--new {
+    top: 2rem;
+  }
+
+  .btn--roll {
+    top: 33rem;
+  }
+
+  .btn--hold {
+    top: 39rem;
+  }
+
+  .dice {
+    top: 12rem;
+    height: 8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
   main {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
+    width: 95%;
+    height: 45rem;
+  }
+
+  .player {
+    padding: 2rem;
+  }
+
+  .name {
+    font-size: 2.2rem;
+  }
+
+  .score {
+    font-size: 5rem;
+  }
+
+  .current {
+    width: 90%;
     padding: 1rem;
   }
 
-  .left,
-  .right {
-    width: 90%;
-    margin-bottom: 1rem;
+  .current-label {
+    font-size: 1.3rem;
   }
 
-  h1 {
+  .current-score {
     font-size: 2.5rem;
   }
 
-  .number {
-    font-size: 3rem;
-    width: 8rem;
-  }
-
-  .guess {
-    width: 60%;
-    font-size: 3rem;
-  }
-
   .btn {
-    padding: 1rem 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.8rem;
   }
 
-  .message {
-    margin-bottom: 5rem;
+  .btn--new {
+    top: 1.5rem;
+  }
+
+  .btn--roll {
+    top: 29rem;
+  }
+
+  .btn--hold {
+    top: 35rem;
+  }
+
+  .dice {
+    top: 10rem;
+    height: 7rem;
   }
 }
