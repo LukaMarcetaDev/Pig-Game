@@ -180,8 +180,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 95vh;
     padding: 2rem;
+    margin: 1rem 1rem;
   }
 
   .left,
@@ -205,8 +206,20 @@ main {
   }
 
   .btn {
-    padding: 1.5rem 2rem;
-    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .player {
+    padding: 10rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .score {
+    font-size: 6rem;
   }
 }
 
@@ -244,8 +257,20 @@ main {
   }
 
   .btn {
-    padding: 1rem 2rem;
-    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .player {
+    padding: 9rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .score {
+    font-size: 6rem;
   }
 }
 
